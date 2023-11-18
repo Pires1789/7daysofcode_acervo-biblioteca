@@ -18,6 +18,9 @@ Este projeto é parte do desafio #7DaysOfCode e objetiva treinar e estudar habil
   - Organização das colunas dos arquivos de empréstimo;
   - Alteração do datatype de certas colunas (principalmente colunas de ID)
 
+  Eu poderia ter optado por outras formas de importar os arquivos, porém achei interessante criar df para cada um dos arquivos CSV.
+  Imaginei que poderia trabalhar com cada um deles individualmente dependendo das perguntas de negócio que fossem feitas ao longo do desafio. Por isso você verá uma lista grande de dfs.
+
   Com relação ao merge, optei pelo left já que perdemos apenas 3k de registros. Por curiosidade montamos um relatório com os livros que não foram requisitados pelos alunos.
   Entendemos que esse tipo de relação é interessante já que a universidade pode optar por divulgar melhor tais livros ou reformular seu acervo, talvez doando esse material.
   
